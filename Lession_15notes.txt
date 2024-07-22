@@ -1,0 +1,35 @@
+In this lecture we studied the folder structure 
+project-root/
+│
+├── src/                # Source code
+│   ├── main/           # Main application code
+│   │   ├── java/       # Java source files (if applicable)
+│   │   ├── python/     # Python source files (if applicable)
+│   │   └── resources/  # Non-code resources (e.g., configuration files)
+│   │
+│   ├── test/           # Test code
+│   │   ├── java/       # Java test files (if applicable)
+│   │   ├── python/     # Python test files (if applicable)
+│   │   └── resources/  # Test resources
+│   │
+│   └── scripts/        # Utility scripts
+│
+├── docs/               # Documentation
+│   ├── design/         # Design documents
+│   ├── user-guide/     # User guide
+│   └── api/            # API documentation
+│
+├── build/              # Build artifacts (e.g., compiled code)
+│
+├── config/             # Configuration files
+│
+├── data/               # Data files (e.g., sample datasets)
+│
+├── examples/           # Example code and usage
+│
+├── tools/              # Tools and utilities
+│
+├── .gitignore          # Git ignore file
+├── README.md           # Readme file
+├── LICENSE             # License file
+└── Makefile            # Makefile (or equivalent build file)
